@@ -1,0 +1,194 @@
+html,body
+{
+    height:100%;
+    margin:0;
+    padding:0;
+    background-color: blue ;
+    
+
+}
+
+#mainpage
+{
+display:grid ;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        
+height:100%;
+width:100%;
+background-color:#1B2A30;    
+    
+}
+
+#navbar
+{
+grid-column:1/7 ;
+grid-row: 1/2;
+
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+height:60px;
+background-color: #1B2A30;
+}
+
+.home
+{
+grid-column:3/3;
+text-align: center;	
+color:white;
+padding:20px;
+}
+
+.con
+{
+grid-column:4/4;
+text-align: center;
+color:white;
+padding:20px;
+
+}
+
+
+#mainimg
+{
+grid-column:1/7;
+grid-row:2/3;
+background-image: url("./images/mjwallpaper3.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment:inherit;
+
+height:500px;
+
+background-color: black;
+
+
+}
+
+
+
+
+.content1
+{
+grid-column: 1/4;
+grid-row: 4/4;    
+
+background-image: url("./images/mjsinger2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment:inherit;    
+height: 400px;
+background-color: pink;
+
+ 
+}
+
+.content2
+{
+
+grid-column: 4/7;
+grid-row: 4/4;    
+
+    
+height: 400px;
+background-color:white;
+text-align: center;
+
+font-family: 'Cinzel',serif;
+}
+
+p
+{
+
+padding:80px;
+
+}
+.content3
+{
+grid-column:1/4;
+grid-row:5/5;
+
+height:400px;
+background-color: white;
+font-family: 'Cinzel',serif;
+text-align: center;
+}
+
+.content4
+{
+grid-column:4/7;
+grid-row:5/5;
+
+background-image: url("./images/mjsinger5.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment:inherit;
+
+height:400px;
+background-color: brown;
+
+}
+
+
+
+.footer
+{
+display:grid ;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr  ;
+
+grid-column:1/7;
+grid-row:6/6;
+
+height:140px;
+
+background-color: #1B2A30;
+}
+
+button {
+grid-column: 4/5;
+grid-row: 2/3;  
+
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.list
+{
+grid-column: 1/1;
+grid-row: 1/1;
+
+list-style: none;
+display:inline;
+}
